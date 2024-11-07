@@ -8,7 +8,7 @@ export interface BabyName {
   NameLength: string;
   PopularityRank: number;
   Pronunciation: string;
-  FamousPeople: string[];
+  FamousPeople: readonly string[]; // Update to readonly array
   CulturalSignificance: string;
   NumerologyTraits: string;
   AstrologyCompatibility: string[];
