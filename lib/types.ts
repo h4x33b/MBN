@@ -13,7 +13,7 @@ export interface BabyName {
   NumerologyTraits: string;
   AstrologyCompatibility: readonly string[];
   NameVariations: readonly string[];
-  PersonalityTraits: string[];
+  PersonalityTraits: readonly string[];
   NamePopularityByRegion: {
     US: number;
     UK: number;
