@@ -12,7 +12,7 @@ export interface BabyName {
   CulturalSignificance: string;
   NumerologyTraits: string;
   AstrologyCompatibility: readonly string[];
-  NameVariations: string[];
+  NameVariations: readonly string[];
   PersonalityTraits: string[];
   NamePopularityByRegion: {
     US: number;
