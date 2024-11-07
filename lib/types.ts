@@ -11,7 +11,7 @@ export interface BabyName {
   FamousPeople: readonly string[]; // Update to readonly array
   CulturalSignificance: string;
   NumerologyTraits: string;
-  AstrologyCompatibility: string[];
+  AstrologyCompatibility: readonly string[];
   NameVariations: string[];
   PersonalityTraits: string[];
   NamePopularityByRegion: {
