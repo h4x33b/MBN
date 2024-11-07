@@ -19,7 +19,7 @@ export interface BabyName {
     UK: number;
     Canada: number;
   };
-  SiblingNameIdeas: string[];
+  SiblingNameIdeas: readonly string[];
   seoTitle: string;
   seoDescription: string;
 }
